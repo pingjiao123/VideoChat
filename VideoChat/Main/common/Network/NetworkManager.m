@@ -6,11 +6,15 @@
 //  Copyright © 2017年 xlb. All rights reserved.
 //
 
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define kJavaBaseURL @"jiaoping"
+
 #import "NetworkManager.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 #import "HttpCache.h"
 #import <YYCategories/YYCategories.h>
+#import <MJExtension/MJExtension.h>
 
 @implementation NetworkResponse
 

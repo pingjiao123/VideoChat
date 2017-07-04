@@ -3,7 +3,7 @@
 
 target 'VideoChat' do
   
-#  pod 'Hyphenate'
+#  pod 'Hyphenate', '~> 3.3.2'
 #  pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git', :tag => '3.3.2'
 
   pod 'AFNetworking', '~> 3.1.0'

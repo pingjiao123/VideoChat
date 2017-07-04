@@ -74,6 +74,8 @@
 		92AE21781F038E6500080D4A /* VIdeoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE21771F038E6500080D4A /* VIdeoChatViewController.m */; };
 		92AE217B1F0391DB00080D4A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE217A1F0391DB00080D4A /* SettingViewController.m */; };
 		92AE217E1F03979A00080D4A /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE217D1F03979A00080D4A /* UserListViewController.m */; };
+		92BD9A9E1F0B3C0300757142 /* HttpCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BD9A9B1F0B3C0300757142 /* HttpCache.m */; };
+		92BD9A9F1F0B3C0300757142 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BD9A9D1F0B3C0300757142 /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +160,10 @@
 		92AE217A1F0391DB00080D4A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		92AE217C1F03979A00080D4A /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
 		92AE217D1F03979A00080D4A /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
+		92BD9A9A1F0B3C0300757142 /* HttpCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpCache.h; sourceTree = "<group>"; };
+		92BD9A9B1F0B3C0300757142 /* HttpCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpCache.m; sourceTree = "<group>"; };
+		92BD9A9C1F0B3C0300757142 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		92BD9A9D1F0B3C0300757142 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		E2565B3291BD5B971C8C7A53 /* Pods-VideoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoChat/Pods-VideoChat.release.xcconfig"; sourceTree = "<group>"; };
 		FB62CD81427028AF00D06817 /* Pods-VideoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoChat/Pods-VideoChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -305,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				92AE21751F038ABB00080D4A /* common.h */,
+				92BD9A991F0B3C0300757142 /* Network */,
 				92AE21621F03861B00080D4A /* Base */,
 			);
 			path = common;
@@ -398,6 +405,17 @@
 				92AE21681F03862500080D4A /* BaseViewController.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		92BD9A991F0B3C0300757142 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92BD9A9A1F0B3C0300757142 /* HttpCache.h */,
+				92BD9A9B1F0B3C0300757142 /* HttpCache.m */,
+				92BD9A9C1F0B3C0300757142 /* NetworkManager.h */,
+				92BD9A9D1F0B3C0300757142 /* NetworkManager.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -577,10 +595,12 @@
 			files = (
 				92AE21781F038E6500080D4A /* VIdeoChatViewController.m in Sources */,
 				92AE217E1F03979A00080D4A /* UserListViewController.m in Sources */,
+				92BD9A9F1F0B3C0300757142 /* NetworkManager.m in Sources */,
 				9297CC7E1F04DC5C009D8B56 /* VideoCallViewController.m in Sources */,
 				92AE21691F03862500080D4A /* BaseNavigationController.m in Sources */,
 				92AE216B1F03862500080D4A /* BaseViewController.m in Sources */,
 				92AE213B1F03592400080D4A /* AppDelegate.m in Sources */,
+				92BD9A9E1F0B3C0300757142 /* HttpCache.m in Sources */,
 				92AE216E1F0386E700080D4A /* LoginViewController.m in Sources */,
 				92AE217B1F0391DB00080D4A /* SettingViewController.m in Sources */,
 				92AE21381F03592400080D4A /* main.m in Sources */,
