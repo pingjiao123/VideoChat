@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DCEE084D82CF54E6B68C47364F4BFD39'
+               BlueprintIdentifier = '45B2537DED4AD457B6F7BCF97521341D'
                BlueprintName = 'Pods-VideoChat'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-VideoChat.a'>
