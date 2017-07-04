@@ -9,5 +9,7 @@ target 'VideoChat' do
   pod 'AFNetworking', '~> 3.1.0'
 
   pod 'WLAlert', '~> 0.0.1'
-
+  pod 'YYCategories'
+  pod 'MJExtension'
+  pod 'YYWebImage'
 end
